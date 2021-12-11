@@ -6,4 +6,8 @@ This repository is built step by step in the tutorial.
 it now includes steps for github
 another changes
 again pull
+<<<<<<< HEAD
 updating repo
+=======
+new line
+>>>>>>> master
