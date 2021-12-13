@@ -1,25 +1,8 @@
 <!DOCTYPE html>
-
-<head>
-    <title>My Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="bluestyle.css">   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
+<html>
 <body>
-    <div id="page">
-        <div class="navbar">
-            <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-            <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-            <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
-            <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-        </div>
 
-        <div class="center">
-            <h1>Welcome!</h1>
-        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
-        <h2>Modal Signup Form</h2>
+<h2>Modal Signup Form</h2>
 
 
 <div id="id01" class="modal">
@@ -52,19 +35,17 @@
   </form>
 </div>
 
-        </div>             
-    </div>
-    <script>
-        // Get the modal
-        var modal = document.getElementById('id01');
-        
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
-        </script>
-</body>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
 
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
 </html>
